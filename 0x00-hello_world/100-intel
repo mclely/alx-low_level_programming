@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c -S -masm=intel $CFILE > CFILE.s
+gcc -c -S -masm = intel $CFILE > CFILE.s
+
