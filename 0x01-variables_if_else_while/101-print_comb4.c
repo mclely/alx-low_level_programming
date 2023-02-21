@@ -1,38 +1,37 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ *main - main function
  *
  *Return: Always (0) Success
  */
 
 
 int main(void)
-
-
-
 {
-	int i, j, k, l;
+	int i;
+	int j;
+	int k;
 
-	for (i = 0; i < 1000; i++)
-
+	for (i = 0 ; i < 10 ; i++)
 	{
-		j = i / 100;
-		k = (i / 10) % 10;
-		l = i % 10;
-
-		if (j < k && k < 1)
+	  for (j = 1 ; j < 10 ; j++)
+	    {
+	      for (k = 2 ; k < 10 ; k++)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-			putchar(l + '0');
-
-			if (i < 700)
+		  if (i < j && j < k)
+		    {
+		      putchar(i + '0');
+		      putchar(j + '0');
+		      putchar(k = '0');
+		      if (i + j + k != 24
 			{
-				putchar(44);
-				putchar(32);
+			  putchar(',');
+			  putchar(' ');
 			}
+		    }
 		}
+	    }
 	}
 	putchar('\n');
 	return (0);
