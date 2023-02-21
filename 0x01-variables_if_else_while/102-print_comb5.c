@@ -9,26 +9,32 @@
 int main(void)
 
 {
-	int i, x;
+	int num1 = 0, num2 = 1, num1max = 98, num2max = 99;
 
-	for (i = 0; i < 9; i++)
-
+	while (num1 <= num2max)
 	{
-		for (x = i + 1; x < 10; x++)
-
-		{
-
-			putchar((i % 10) + '0');
-			putchar((x % 10) + '0');
-
-			if (i == 8 && x == 9)
-				continue;
-			putchar(',');
-			putchar(' ');
-		}
+	num2 = num1 + 1;
+	}
+	while (num2 <= num2max)
+	{
+	  putchar(num1 < 9 ? 0 + '0' : (num1 / 10) + '0');
+	  putchar(num1 < 9 ? num1 + '0' : (num1 % 10) + '0');
+	  putchar(' ');
+	  putchar(num2 < 9 ? 0 + '0' : (num2 / 10) + '0');
+	  putchae(num2 < 9 ? num2 + '0' : (num2 % 10) + '0');
+	}
+	if (num1 != num1max)
+	{
+	  putchar(',');
+	  putchar(' ');
 	}
 
-	putchar('\n');
-	return (0);
+	  num2++;
+	}
+	num1++;
 
+	}
+	putchar('\n');
+
+	return (0);
 }
