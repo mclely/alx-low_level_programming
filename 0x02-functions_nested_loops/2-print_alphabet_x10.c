@@ -6,9 +6,9 @@
  *
  * Description: print alphabets in lowercase using the _putchar, 10 times
  *
- * Return: void
+ * Return: always 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = 26;
