@@ -3,13 +3,12 @@
 /**
  * print_alphabet - Entry point
  *
- * Description: A function that prints lowercase alphabets, followed by new line
+ * Description: A function that prints lowercase alphabets
  *
  * Return: void
  */
 
 void print_alphabet(void)
-
 {
 
 	char letter = 'a';
