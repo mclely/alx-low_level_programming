@@ -1,10 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <string.h>
+#include <stdio.h>
+#include <ctype.h>
 
 char *_memset(char *s, char b, unsigned int n);
 int _putchar(char c);
-char *memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchrl(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
