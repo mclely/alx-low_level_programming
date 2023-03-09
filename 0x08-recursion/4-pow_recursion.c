@@ -1,6 +1,6 @@
 /*
  * File: 4-pow_recursion.c
- * Auth: sam
+ * Auth: mike
  */
 
 #include "main.h"

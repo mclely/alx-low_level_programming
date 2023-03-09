@@ -1,6 +1,6 @@
 /*
  * File: 1-print_rev_recursion.c
- * Auth: sam
+ * Auth: mike
  */
 
 #include "main.h"

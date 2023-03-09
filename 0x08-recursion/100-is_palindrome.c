@@ -1,6 +1,6 @@
 /*
  * File: 100-is_palindrome.c
- * Auth: sami
+ * Auth: mike
  */
 
 #include "main.h"

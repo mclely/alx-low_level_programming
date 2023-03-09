@@ -1,6 +1,6 @@
 /*
  * 3-factorial.c
- * Auth: sam
+ * Auth: mike
  */
 
 #include "main.h"

@@ -1,6 +1,6 @@
 /*
  * File: 0-puts_recursion.c
- * Auth: sam
+ * Auth: mike
  */
 
 #include "main.h"
